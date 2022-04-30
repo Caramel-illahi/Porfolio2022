@@ -1,0 +1,86 @@
+body{
+    background:#130124;
+    font-family:Calibri;
+    cursor: url(/images/logo.png), pointer;
+  }
+
+nav{
+      width:94%;
+      margin:auto;
+      position:fixed;
+      background:#130124a1;
+      padding:10px;
+  }
+  
+nav a{
+    color:white;
+    display:block;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    margin:5px;
+    background:#130124;
+    text-decoration:none;
+    float:right;
+    font-size:18px;
+    font-weight:bold;
+    
+  }
+  
+nav a:hover{
+    color:#b894ff;
+    text-shadow: 1px 1px red, 2px 2px blue;
+  }
+  
+nav span{
+    color:#b894ff;
+    display:inline-block;
+    margin-left:10px;
+    padding:20px;
+    font-family:Calibri;
+    font-size:20px;
+    font-weight:bold;
+    background-color:#130124;
+    box-shadow: 5px 5px #b894ff;
+    text-shadow: 1px 1px red, 2px 2px blue;
+  }
+  
+nav img{
+    width:40px;
+    float:left;
+    margin:10px;
+    padding:0;
+  }
+  
+.largeheading{
+    color:white;
+    font-size:130px;
+    font-weight:bold;
+    font-family:Times New Roman;
+    margin:auto;
+    padding:auto;
+    margin-left:30px;
+    margin-top:;
+    display:inline-block;
+  }
+  
+.largeheading:hover{
+    color:#b894ff;
+    text-shadow: 2px 2px red, 3px 3px blue;
+    transition:200ms;
+  }
+
+span.dot{
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+#expression{
+    font-style:italic;
+    text-shadow: 2px 2px red, 3px 3px blue;
+  }
+
+h1{
+    font-family:cursive;
+}
