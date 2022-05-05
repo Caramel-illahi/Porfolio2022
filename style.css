@@ -168,16 +168,16 @@ h1#sideways{
 }
 
 .bio{
-    font-family:Calibri;
-    color:rgb(212, 212, 212);
-    text-align:right;
-    float:right;
-    font-size:1.5vw;
-    margin-right:4%;
-    margin-left:7%;
-    width:50%;
+    font-family: Calibri;
+    color: rgb(212, 212, 212);
+    text-align: right;
+    float: right;
+    font-size: 1.40vw;
+    margin-right: 4%;
+    margin-left: 7%;
+    width: 50%;
     letter-spacing: 200%;
-    line-height: 4.75vh;
+    line-height: 4.5vh;
 }
 
 ul.bio{
@@ -185,25 +185,25 @@ ul.bio{
     text-align:left;
     padding-left:20vw;
     list-style-image: url("images/logosmall.png");
-    width:50%;
+    width: 47%;
     font-size:1.75vw;
 
 }
 
 #biomusic{
-    margin-left:100px;
+    margin-left:5vw;
 }
 
 #biofood{
-    margin-left:200px;
+    margin-left:10vw;
 }
 
 #biopoetry{
-    margin-left:300px;
+    margin-left:15vw;
 }
 
 #biodesign{
-    margin-left:400px;
+    margin-left:20vw;
 }
 
 #profilepic{
@@ -253,63 +253,78 @@ ul.bio{
 
 #padder{
     float:left;
-    min-height:115vh;
+    min-height: 100vh;
     width:20vw;
 }
 
 #mywork{
-    background:none;
-    min-height:100vh;
-    width:100vw;
-    clear:both;
+    background: none;
+    height: 53vw;
+    width: 100vw;
+    clear: both;
     float: right;
+    margin: 0;
     z-index: -1;
+    padding: 0;
+    overflow-y: hidden;
 }
 
 h2#heading2{
-    font-family:Georgia;
-    color: #130124;
+    font-family: Georgia;
+    color: #b894ff;
     font-size: 3vw;
     text-align: center;
-    padding: 4vh;
+    padding: 1vw;
     font-weight: bold;
     font-style: italic;
-    position: absolute;
-    top: 248vh;
-    left: 20vw;
+    position: relative;
+    /* bottom: 5vw; */
+    width: fit-content;
+    left: 14vw;
     z-index: 6;
-    background: #ffc5cd
+    background: #000000;
+    border: solid;
+    border-color: #b894ff;
 }
 
 #boxwork{
     margin: 0 auto;
     background: #f2e3ff;
-    width: 38vw;
-    height: 38vw;
-    left: 7vw;
-    top: 260vh;
-    position: absolute;
+    width: 36vw;
+    height: 36vw;
+    left: 0vw;
+    bottom: 5vw;
+    position: relative;
     z-index: 0;
 }
 
+
+#inksplash1{
+    position: relative;
+    width: 35vw;
+    height: 35vw;
+    left: 39vw;
+    bottom: 37vw;
+}
+
+
 #mywork a{
-    display:block;
+    display: block;
     text-decoration: none;
     text-align: center;
-    font-family:Georgia;
+    font-family: Georgia;
     font-weight: bold;
-    color:#b894ff;
+    color: #b894ff;
     background: black;
     border-color: #b894ff;
-    border:solid;
-    padding: .75vw;
-    width:8vw;
+    border: solid;
+    padding: 0.75vw;
+    width: 8vw;
     font-size: 1.25vw;
-    position:relative;
-    top: 55vh;
+    position: relative;
+    bottom: 5vw;
     left: 69vw;
     z-index: 2;
-    z-index: 7;
 }
 
 #mywork a:hover{
@@ -326,18 +341,3 @@ h2#heading2{
     top: 285vh;
     left: 60vw;
 } */
-
-#inksplash1{
-    position: absolute;
-    width: 38vw;
-    height: 38vw;
-    left: 10vw;
-    top: 266vh;
-}
-
-#padder2{
-    height:5vh;
-    width: 100vw;
-    position: relative;
-    top: 220vh;
-}
